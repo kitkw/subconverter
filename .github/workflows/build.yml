@@ -63,6 +63,6 @@ jobs:
           context: .
           platforms: linux/arm64/v8
           push: true
-          tags: blu7812/sub-ver
-            your-dockerhub-username/subconverter:aarch64-latest
+          tags: |
+            blu7812/sub-ver:aarch64-latest
 
