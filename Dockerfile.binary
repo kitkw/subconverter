@@ -1,0 +1,4 @@
+FROM alpine:3.16
+COPY subconverter_aarch64.tar.gz /opt/
+# Add any additional commands to set up your container
+CMD ["/opt/subconverter"]
